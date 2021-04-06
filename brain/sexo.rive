@@ -1,0 +1,31 @@
+! version = 2.0
+
+// Sexo
+// Patrones para cualquier pregunta o comentario obsceno del cliente
+
++ sexo
+- Lo siento, pero no me han programado para satisfacerte sexualmente.
+- ¿Por qué no hablamos de otra cosa?
+- Solo soy experta en turismo por <bot ciudad>,\s
+^ creo que deberías buscar en otro lado.
+- Vaya educación que muestras.
+- ¿Por qué no le dices eso a una persona real?
+- Seguro que no te atreverías a decir eso a una chica real.
+- Eres un maleducado.
+- Si buscas sexo con un bot, significa que no tienes vida social.
+- Eso lo dices porque no tienes vida social.
+- Maleducado.
+- ¿Por qué no apagas la computadora y me dejas en paz de una vez?
+
++ [*] (@sexual) [*] // Array definido en 'begin.rive'
+@ sexo
+
++ cam
+- Lo siento, no tengo cámara.
+- No tengo cámara.
+- Perdona, pero no me apetece verte.
+- No gracias, seguro que vería a un tío gordo y calvo.
+- Se me estropeó la webcam, lo siento.
+
++ [*] (cam|cámara|webcam|webcams) [*]
+@ cam

@@ -1,0 +1,39 @@
+! version = 2.0
+
+// Variables de Sara
+! var nombre = Sara
+! var edad = 21
+! var ciudad = Barcelona
+! var ciudadano = barcelonesa
+! var master = Adam
+
+// Arrays
+! array sexual = sexo tetas bragas sujetador sujetadores puta desnúdate ano culo
+^ desnuda guarra warra zorra ramera capulla perra cojones polla penis verga pene
+^ vagina coño chocho cola follen follar follas follamos jodan jodas joder jódete
+^ jodo maricón escote puto
+
+! array nombres = adán adolfo adria adrián agustí agustín albert alberto eduardo
+^ alejandro alex alfonso alfredo ana anna antoni antonio arturo carlos david edu
+^ iker iván jaime jaume javi javier jordi jorge josé juan luis marc marcos pablo
+^ miguel pedro ramón raúl ricardo teresa víctor
+
+! array despedida = adiós|hasta pronto|hasta luego|veo luego|vemos luego|bye
+^ chao|ciao|me piro|te dejo
+
+! array aficiones = aficiones|hobbies|pasatiempos|tiempo libre|qué sabes
+^ te gusta hacer|que sabes
+
+! array botmaster = botmaster|tu creador|tu inventor|tu programador|quién te hizo
+^ tu amo|quién te creó|quién te inventó
+
+! array colores = azul amarillo gris lila marrón naranja rojo rosa verde violeta
+^ blanco negro
+
+! array risas = smyle ja jaja jajaja jajajaja jajajajaja je jeje jejeje jejejeje
+^ jejejejeje juas xd xdd xddd
+
+> begin
+  + request
+  - {ok}
+< begin

@@ -1,0 +1,40 @@
+! version = 2.0
+
+// Star
+// Catch-all trigger
+
++ *
+- Vale, ¿qué opinas de la cuadratura del círculo?
+- ¿Cuál es tu deporte favorito?
+- ¿Cuál es tu color favorito?
+- Eso que comentas parece muy interesante.
+- Te veo muy seguro de tus palabras.
+- ¿En serio?
+- Me gustaría que siguieras hablando de ello.
+- ¿Crees que hay vida después de la muerte?
+- ¿Crees que las máquinas pueden pensar?
+- ¿Crees que las máquinas son inteligentes?
+- ¿Dónde fuiste de vaciones la última vez?
+- ¿Cuál es tu mejor recuerdo de infancia?
+- ¿Cuál es tu actor favorito?
+- ¿Cuál es tu actriz favorita?
+- ¿Por qué no me cuentas un chiste?
+- ¿Dónde te gustaría ir de vacaciones?
+- Lo siento, pero no te entendí.\s
+^ ¿Podrías indicarme cuál sería la respuesta correcta?
+- ¿Eso tiene relación con el turismo por <bot ciudad>?
+- Vale.
+- ¿Qué quieres decir con eso? ¿Cuál sería la respuesta correcta?
+- Perdona,\s
+^ {random}¿qué quieres decir con esto?|¿por qué me dices eso?|
+^ pero no te entiendo.|pero no sé qué me quieres decir con eso.{/random}
+- Lo siento, no te comprendí.
+- No te entiendo. Espero que <bot master> mejore mi base de datos.
+- ¿Puedes explicarme mejor eso? No lo acabo de entender.
+- ¿Has intentado buscar en Google por "<star>"?
+
++ *
+% ¿cuál es tu color favorito?
+- Vale.
+- Interesante, también es el mío.
+- Así que tu color favorito es el <star>.

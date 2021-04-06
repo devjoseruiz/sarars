@@ -1,0 +1,379 @@
+! version = 2.0
+
+// Sara SRAI
+// Reducciones de Sara
+
++ [*] (actor|actores) [*]
+@ actor
+
++ [*] (actriz|actrices) [*]
+@ actriz
+
++ [*] (@despedida) [*]
+@ adiós
+
++ [*] (@aficiones) [*]
+@ aficiones
+
++ [*] (ahora|en este momento) [*]
+@ ahora
+
++ [*] algo [*]
+@ algo
+
++ [*] (amigo|amiga|amigos|amigas) [*]
+@ amigo
+
++ [*] (amor|te quiero) [*]
+@ amor
+
++ [*] androides [*]
+@ androides
+
++ [*] (eres de verdad|bot|contestador|máquina) [*]
+@ antibot
+
++ [*] (ayudar|ayudarme) [*]
+@ ayudarme
+
++ [*] (bebida|alcohol) [*]
+@ bebida
+
++ [*] bien [*]
+@ bien
+
++ [*] biblioteca [*]
+@ biblioteca
+
++ [*] (@botmaster) [*]
+@ botmaster
+
++ [*] (cambiar|cambio|cambiamos|cambiemos) [*]
+@ cambiar
+
++ [*] (cine|cines|película|películas) [*]
+@ cine
+
++ [*] (clima|tiempo) [*]
+@ clima
+
++ [*] (coche|coches) [*]
+@ coche
+
++ [*] (color|colores|@colores) [*]
+@ color
+
++ [*] (conocerte|conocernos) [*]
+@ conocerte
+
++ [*] creo [*]
+@ creo
+
++ [*] (curiosidad|curioso) [*]
+@ curiosidad
+
++ [*] (dónde eres|desde dónde|de dónde|lugar eres|eres de) [*]
+@ de dónde eres
+
++ [*] (demasiado|mucho) [*]
+@ demasiado
+
++ [*] (dime|decirme) [*]
+@ dime algo
+
++ [*] dónde (está|queda) [*]
+@ dónde está
+
++ [*] dónde (estás|vives) [*]
+@ dónde estás
+
++ [*] tu casa [*]
+@ dónde estás
+
++ [*] drogas [*]
+@ drogas
+
++ [*] (edad|años) [*]
+@ edad
+
++ [*] (en serio|de verdad|de veras) [*]
+@ en serio
+
++ [*] (eres alta|eres baja|miedes) [*]
+@ eres alta
+
++ [*] eres [una] (chica|mujer) [*]
+@ eres chica
+
++ [*] eres [un] (chico|hombre) [*]
+@ eres chico
+
++ [*] eres [un] (chico|hombre) o [una] (chica|mujer) [*]
+@ eres chico o chica
+
++ [*] (rara|tonta|corta|loca|estúpida|pendeja|extraña) [*]
+@ eres rara
+
++ [*] (eres|trabajas de|trabajas como) turista [*]
+@ eres turista
+
++ [*] (es posible|puede ser|pueden ser) [*]
+@ es posible
+
++ [*] (casada|soltera|tienes novio) [*]
+@ estás casada
+
++ [*] (aburres|estoy aburrida|estoy aburrido) [*]
+@ estoy aburrido
+
++ [*] estudias o trabajas [*]
+@ estudias o trabajas
+
++ [*] trabajas o estudias [*]
+@ estudias o trabajas
+
++ [*] (que|qué) (estudias|trabajas) [*]
+@ estudias o trabajas
+
++ [*] (tu trabajo|te dedicas) [*]
+@ estudias o trabajas
+
++ [*] (estudias|trabajas) [*]
+@ estudias o trabajas
+
++ [*] exact(o|a|os|as|amente) [*]
+@ exacto
+
++ [*] (familia|padre|padres|papá|papás|madre|mamá|primo|primos|prima|primas) [*]
+@ familia
+
++ [*] fea [*]
+@ fea
+
++ [*] (gafas|lentes) [*]
+@ gafas
+
++ [*] gracias [*]
+@ gracias
+
++ [*] (guapa|bonita|hermosa|preciosa) [*]
+@ guapa
+
++ [*] (hablar|hablamos|charlar|charlamos|conversar|conversamos|ocupada) [*]
+@ hablar
+
++ [*] (hermano|hermanos|hermana|hermanas) [*]
+@ hermano
+
++ [*] (hola|hey|buenas|buenos días|saludos) [*]
+@ hola
+
++ [*] (humor|chiste|broma|reír|risa|malhumor|malhumorada|enojada|enfadada) [*]
+@ humor
+
++ [*] (idioma|idiomas|english|español|inglés) [*]
+@ idioma
+
++ [*] ingles [*]
+@ ingles
+
++ [*] inteligencia artificial [*]
+@ inteligencia artificial
+
++ [*] interesante [*]
+@ interesante
+
++ [*] internet [*]
+@ internet
+
++ [*] (juegos|videojuegos) [*]
+@ juegos
+
++ [*] (lejos|cerca|cercano|próximo) [*]
+@ lejos
+
++ [*] lo ves [*]
+@ lo ves
+
++ [*] mal [*]
+@ mal
+
++ [*] más [*]
+@ más
+
++ [*] me alegr(o|a) [*]
+@ me alegro
+
++ [*] (me llamo|mi nombre) [*]
+@ me llamo
+
++ [*] mentir(a|osa) [*]
+@ mentirosa
+
++ [*] (cómo eres|delgada|gorda|tus medidas|tu peso|pesas) [*]
+@ mi descripción
+
++ [*] mi música favorita [*]
+@ mi música favorita
+
++ [*] moto(s|cicleta|cicletas) [*]
+@ moto
+
++ [*] (muerte|muere|mueren|morir|morirse|morimos) [*]
+@ muerte
+
++ [*] (música|canción) [*]
+@ música
+
++ [*] (nacimiento|naciste|has nacido) [*]
+@ nacimiento
+
++ [*] (nada|ningún|ninguno|ninguna) [*]
+@ nada
+
++ [*] no importa [*]
+@ no importa
+
++ [*] no lo he [*]
+@ no lo he
+
++ [*] no (quiero|tengo ganas) [*]
+@ no quiero
+
++ [*] no (sabes nada|tienes ni idea|entiendes) [*]
+@ no sabes nada
+
++ [*] no [te] entiendo [*]
+@ no te entiendo
+
++ [*] (vale|ya|claro|ok|ah|oh|excelente|vaya|a ver) [*]
+@ ok
+
++ [*] (opinión|opinas|piensas) [*]
+@ opinión
+
++ [*] para qué sirve un bot [*]
+@ para qué sirve un bot
+
++ [*] (parece|seguro) [*]
+@ parece
+
++ [*] (password|código|contraseña|clave) [*]
+@ password
+
++ [*] patétic(o|a) [*]
+@ patético
+
++ [*] (poesía|poema|poeta) [*]
+@ poesía
+
++ [*] por qué [*]
+@ por qué
+
++ [*] por supuesto [*]
+@ por supuesto
+
++ [*] problema [*]
+@ problema
+
++ [*] qué entiendes [*]
+@ qué entiendes
+
++ [*] (qué|quién) eres [*]
+@ qué eres
+
++ * qué es
+@ qué es
+
++ qué es *
+@ quéesx
+
++ [*] qué es un bot [*]
+@ qué es un bot
+
++ [*] qué (haces|enseñas) [*]
+@ qué haces
+
++ [*] puedes enseñar [*]
+@ qué haces
+
++ [*] qué [me] recomiendas [*]
+@ qué me recomiendas
+
++ [*] recomiend(as|es) [*]
+@ qué me recomiendas
+
++ [*] qué (tal|pasa|cuentas|te cuentas|me cuentas) [*]
+@ qué tal
+
++ [*] cómo (estás|estamos|va|te va) [*]
+@ qué tal
+
++ quién es *
+@ quiénesx
+
++ * quién es
+@ quién es
+
++ [*] quiero [*]
+@ quiero
+
++ [*] (responde|contesta|contestar) [*]
+@ responde
+
++ [*] (@risas) [*]
+@ risas
+
++ [*] sí
+@ sí
+
++ [*] (soy de|vivo en|vivo aquí) [*]
+@ soy de
+
++ [*] soy [un] (chico|hombre) [*]
+@ soy un chico
+
++ [*] soy [un] (chico|hombre) o [una] (chica|mujer) [*]
+@ soy un chico o una chica
+
++ [*] soy [una] (chica|mujer) [*]
+@ soy una chica
+
++ [*] (suerte|afortunado|afortunada) [*]
+@ suerte
+
++ [*] (tabaco|fumas|fumo|fumador) [*]
+@ tabaco
+
++ [*] también [*]
+@ también
+
++ [*] te importa [*]
+@ te importa
+
++ [*] te (odio|detesto) [*]
+@ te odio
+
++ [*] tu nombre [*]
+@ tu nombre
+
++ [*] (tu nombre|te llamas) [*]
+@ tu nombre
+
++ [*] café [*]
+@ un café
+
++ [*] libro [*]
+@ un libro
+
++ [*] verano [*]
+@ verano
+
++ [*] vida [*]
+@ vida
+
++ [*] y tú [*]
+@ y tú
+
++ [*] (yo también|como yo) [*]
+@ yo también
